@@ -1,0 +1,59 @@
+
+.card-container {
+    height: 70px;
+    display: flex;
+    border: 1px solid #888;
+    margin: 20px auto;
+    width: 300px;
+    flex-direction: row;
+    align-items: center;
+
+    .avatar-section {
+        margin-left: 5px;
+        img {
+            width: 45px;
+            height: 45px;
+        }
+    }
+
+    .main-section {
+        text-align: left;
+        margin-left: 10px;
+        height: 100%;
+        margin-top: 15px;
+
+        .card-name {
+
+        }
+
+        .card-comment {
+            color: rgba(0,0,0,0.4);
+            width: 165px;
+            font-size: 12px;
+        }
+    }
+
+    .btns-section {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+        height: 100%;
+        margin-top: 10px;
+        margin-right: 2px;
+
+        i{
+            margin: 0 3px;
+            cursor: pointer;
+        }
+    }
+}
+
+.card-edit-container {
+    height: 150px;
+    display: flex;
+    border: 1px solid #888;
+    margin: 20px auto;
+    width: 300px;
+    flex-direction: row;
+    align-items: center;
+}

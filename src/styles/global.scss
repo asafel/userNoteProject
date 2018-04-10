@@ -1,0 +1,19 @@
+@import 'variables';
+
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  font-size: 14px;
+}
+
+div, p, input, label, span, textarea, li, a {
+  font-size: 1em;
+}

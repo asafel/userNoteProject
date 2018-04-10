@@ -1,0 +1,49 @@
+
+.msg-add-box {
+    max-width: 300px;
+    margin: auto;
+    height: 150px;
+    border: 1px solid #888;
+    box-shadow: 1px 1px 1px #888;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    .name-input {
+        margin: 10px;
+        input {
+            width: 283px;
+        }
+    }
+
+    .comment-input {
+        margin: 10px;
+        textarea {
+            resize: none;
+            width: 283px;
+         }
+    }
+
+    .btn-input {
+        border: 1px solid #7a7af3;
+        background: #7a7af3;
+        color: white;
+        border-radius: 3px;
+        font-size: 12px;
+        width: 55px;
+        height: 22px;
+        line-height: 22px;
+        margin-left: 80%;
+        cursor: pointer;
+    }
+
+    .box-error {
+        position: relative;
+        bottom: 18px;
+        color: red;
+        right: 80px;
+        font-size: 12px;
+    
+    }
+}
